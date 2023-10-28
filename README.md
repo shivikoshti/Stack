@@ -1,35 +1,19 @@
 # Stack
 ## Theory:
-A Stack is a linear data structure that follows the LIFO (Last-In-First-Out) principle. Stack has one end, whereas the Queue has two ends (front and rear). 
-It contains only one pointer top pointer pointing to the topmost element of the stack. Whenever an element is added in the stack, it is added on the top of the stack, and the element can be deleted only from the stack.
-In other words, a stack can be defined as a container in which insertion and deletion can be done from the one end known as the top of the stack.<img width="424" alt="Screenshot 2023-10-22 at 5 04 02 PM" src="https://github.com/Rutuja-117/Stack/assets/139907839/5920ad79-f6aa-49cb-af7c-432f6a48a128">
+A stack is a fundamental data structure in computer science that follows the Last-In-First-Out (LIFO) principle. It is similar to a stack of books where the last book added is the first one to be removed. In C++, you can implement a stack using arrays or linked lists.
+<img width="424" alt="Screenshot 2023-10-22 at 5 04 02 PM" src="https://github.com/Rutuja-117/Stack/assets/139907839/5920ad79-f6aa-49cb-af7c-432f6a48a128">
 <img width="424" alt="Screenshot 2023-10-22 at 5 04 02 PM" src="https://github.com/Rutuja-117/Stack/assets/139907839/400fe27b-1e53-44d9-a028-34d1f2ba6b21">
-### Basic operations in stack:
-push(): When we insert an element in a stack then the operation is known as a push. If the stack is full then the overflow condition occurs.
+### Functions:
+push(element): The push function is used to add an element to the top of the stack. It increases the stack size by one and places the new element at the top.</br>
 
-pop(): When we delete an element from the stack, the operation is known as a pop. If the stack is empty means that no element exists in the stack, this state is known as an underflow state.
+pop(): The pop function is used to remove the top element from the stack. It decreases the stack size by one and returns the element that was removed.</br>
 
-isEmpty(): It determines whether the stack is empty or not.
+isEmpty(): The isEmpty function checks if the stack is empty. It returns true if the stack has no elements, and false otherwise.</br>
 
-isFull(): It determines whether the stack is full or not.
+isFull(): The isFull function checks if the stack is full. In case you are using an array-based implementation, this function ensures that the stack does not exceed its defined capacity.</br>
 
-peek(): It returns the element at the given position.
+peak(): The peak function returns the value of the top element in the stack without removing it. It allows you to inspect the top element without modifying the stack.</br>
 
-count(): It returns the total number of elements available in a stack.
+count(): The count function returns the number of elements currently in the stack. It provides the size or capacity of the stack at any given time.</br>
 
-change(): It changes the element at the given position.
-
-display(): It prints all the elements available in the stack.
-<img width="480" alt="Screenshot 2023-10-22 at 5 06 51 PM" src="https://github.com/Rutuja-117/Stack/assets/139907839/a9281ca6-191b-4a33-a886-1a9baf7bdbc3">
-### Applications:
-1)Expression Evaluation and Conversion
-
-2)Function Call
-
-3)Parentheses Checking
-
-4)String Reversal
-
-5)Syntax Parsing
-
-6)Memory Management
+change(position, value): If you are using an array-based implementation, the change function allows you to modify the value of an element at a specified position in the stack.</br>
