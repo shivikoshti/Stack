@@ -1,8 +1,7 @@
 # Stack
 ## Theory:
-A stack is a fundamental data structure in computer science that follows the Last-In-First-Out (LIFO) principle. It is similar to a stack of books where the last book added is the first one to be removed. In C++, you can implement a stack using arrays or linked lists.
-<img width="424" alt="Screenshot 2023-10-22 at 5 04 02 PM" src="https://github.com/Rutuja-117/Stack/assets/139907839/5920ad79-f6aa-49cb-af7c-432f6a48a128">
-<img width="424" alt="Screenshot 2023-10-22 at 5 04 02 PM" src="https://github.com/Rutuja-117/Stack/assets/139907839/400fe27b-1e53-44d9-a028-34d1f2ba6b21">
+In C++, a stack is a fundamental data structure that adheres to the Last-In-First-Out (LIFO) principle. It resembles a stack of items, where the last one placed is the first to be removed. This versatile structure finds applications in various algorithms and data processing tasks. In C++, a stack can be implemented using arrays or linked lists. It offers essential operations like push (to add an element), pop (to remove the top element), and peek (to view the top element without removal). Understanding and effectively utilizing stacks is crucial for solving problems that require systematic data management.
+![image](https://cdn.programiz.com/sites/tutorial2program/files/stack-operations.png)
 ### Functions:
 push(element): The push function is used to add an element to the top of the stack. It increases the stack size by one and places the new element at the top.</br>
 
